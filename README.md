@@ -2,7 +2,7 @@
 
 Captions generated from our re-rendered videos based on MatSynth assets, using a vision-language model (LLM-VL). This repository provides the original captions and a cleaned variant, plus a small script to reproduce the cleaning.
 
-Data license: CC BY 4.0 | Code license: MIT | DOI: see "How to Cite"
+Data license: CC BY 4.0 | Code license: MIT | DOI: 10.5281/zenodo.17013691
 
 ---
 
@@ -12,9 +12,7 @@ Data license: CC BY 4.0 | Code license: MIT | DOI: see "How to Cite"
     ├─ captions_v1.csv           # Original captions (one record per line)
     ├─ captions_v1_clean.csv     # Cleaned captions (see rules below)
     ├─ clean_captions_exact.py   # Reproducible cleaning script
-    ├─ README.md
-    ├─ LICENSE                   # Data: CC BY 4.0; Code: MIT
-    └─ CITATION.cff              # Citation metadata for this resource
+    └─ README.md
 
 Note on source data:
 - Data source link: MatSynth project — [https://huggingface.co/datasets/gvecchio/MatSynth]
@@ -86,7 +84,7 @@ BibTeX:
       title   = {Rerendered MatSynth Captions (LLM-VL)},
       year    = {2025},
       version = {1.0.0},
-      doi     = {},
+      doi     = {10.5281/zenodo.17013691},
       url     = {https://github.com/yley123/MatSynth-Captions-Text-Prompts-for-Material-Videos}
     }
 
