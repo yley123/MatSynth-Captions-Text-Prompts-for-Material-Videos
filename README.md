@@ -8,7 +8,7 @@ Data license: CC BY 4.0 | Code license: MIT | DOI: 10.5281/zenodo.17013691
 
 ## What's Inside
 
-    [REPO_NAME]/
+    MatSynth-Captions-Text-Prompts-for-Material-Videos/
     ├─ captions_v1.csv           # Original captions (one record per line)
     ├─ captions_v1_clean.csv     # Cleaned captions (see rules below)
     ├─ clean_captions_exact.py   # Reproducible cleaning script
